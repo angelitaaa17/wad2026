@@ -6,13 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    $valor1 = 10;
-    $valor2 = 5;
+    <?php
+        $valor1 = 10;
+        $valor2 = 5;
 
-    function prueba() {
-            global $valor, $valor2;
-            $valor3 = $valor1 + valor2;
-            echo $valor3;
-    }
+        function prueba() {
+                global $valor1, $valor2;
+                $valor3 = $valor1 + $valor2;
+                echo $valor3;
+        }
+        prueba();
+    ?>
 </body>
 </html>
