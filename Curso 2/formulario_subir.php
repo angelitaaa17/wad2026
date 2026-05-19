@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario</title>
+</head>
+
+<body>
+<form name="form1" id="form1" method="post" enctype="multipart/form-data">
+  <p>
+    <input type="file" name="imagen" id="imagen">
+  </p>
+  <p>
+    <input type="submit" value="Subir">
+  </p>
+</form>
+</body>
+</html>
